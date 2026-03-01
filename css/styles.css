@@ -16,6 +16,7 @@
 html {
     font-size: 62.5%; /* TODO: Hack para que 1rem = 10px */
     box-sizing: border-box; /* TODO: Hack para box model */
+    scroll-snap-type: y mandatory;
 }
 
 *, *:before, *:after {
@@ -167,6 +168,14 @@ h1, h2, h3 {
 .contenido-hero .ubicacion {
     display: flex;
     align-items: flex-end;
+}
+
+/* *Scroll snap */
+.navegacion-principal,
+.servicios,
+.formulario {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
 }
 
 /* *Servicios */
