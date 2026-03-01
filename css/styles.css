@@ -1,0 +1,68 @@
+:root {
+    /* *Paleta de colores */
+    --blanco: #fff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+
+    /* *Fuente y tipografia */
+    --fuente: "Krub", sans-serif;
+}
+
+/* TODO: Hack para que 1rem = 10px */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--fuente);
+}
+
+/* *Helpers */
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/* *Header */
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+.titulo span {
+    font-size: 2rem;
+}
+
+/* *Navegacion */
+.nav-bg {
+    background-color: var(--secundario);
+}
+
+.navegacion-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) { /* Cel 480,  Tablet 768, PC 1140, Max: 1400 */
+    .navegacion-principal {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.navegacion-principal a {
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
