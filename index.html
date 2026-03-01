@@ -25,7 +25,7 @@
 
     <div class="nav-bg">
         <nav class="navegacion-principal contenedor"> <!--* Barra de navegacion -->
-            <a href="/index.html">Inicio</a>
+            <a href="#">Inicio</a>
             <a href="#">Sobre Mi</a>
             <a href="#">Clientes</a>
             <a href="#">Contacto</a>
@@ -165,44 +165,46 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aut inventore omnis doloremque delectus error veritatis reprehenderit, distinctio odit repellendus.</p>
             </section>
         </div>
+
+        <section> <!--* Llamado a la accion -->
+            <h2>Contacto</h2>
+
+            <form action="#" autocomplete="off" class="formulario">
+                <fieldset>
+                    <legend>Contactanos llenando todos los campos</legend>
+
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="nombre">Nombre</label>
+                            <input class="input-text" type="text" name="nombre" id="nombre" placeholder="Tu Nombre">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="telefono">Telefono</label>
+                            <input class="input-text" type="tel" name="telefono" id="telefono" placeholder="Tu Telefono">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="correo">Correo</label>
+                            <input class="input-text" type="email" name="correo" id="correo" placeholder="Tu Email">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea class="input-text" name="mensaje" id="mensaje"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="flex alinear-derecha">
+                        <input class="boton w-100" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
         
     </main>
 
-    <section> <!--* Llamado a la accion -->
-        <h2>Contacto</h2>
-
-        <form action="#" autocomplete="off">
-            <fieldset>
-                <legend>Contactanos llenando todos los campos</legend>
-
-                <div>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Tu Nombre">
-                </div>
-                
-                <div>
-                    <label for="telefono">Telefono</label>
-                    <input type="tel" name="telefono" id="telefono" placeholder="Tu Telefono">
-                </div>
-                
-                <div>
-                    <label for="correo">Correo</label>
-                    <input type="email" name="correo" id="correo" placeholder="Tu Email">
-                </div>
-                
-                <div>
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" id="mensaje"></textarea>
-                </div>
-                
-                <div>
-                    <input type="submit" value="Enviar">
-                </div>
-            </fieldset>
-        </form>
-    </section>
-
-    <footer> <!--* Pie de pagina -->
+    <footer class="footer"> <!--* Pie de pagina -->
         <p>&copy; <span id="year"></span> - Todos los derechos reservados - Noe Ramirez</p>
     </footer>
 </body>
