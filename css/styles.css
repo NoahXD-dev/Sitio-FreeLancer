@@ -1,3 +1,15 @@
+:root {
+    /* *Paleta de colores */
+    --blanco: #fff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+
+    /* *Fuente y tipografia */
+    --fuente: "Krub", sans-serif;
+}
+
 /* TODO: Hack para que 1rem = 10px */
 html {
     font-size: 62.5%;
@@ -5,14 +17,15 @@ html {
 
 body {
     font-size: 16px;
+    font-family: var(--fuente);
 }
 
 /* * Header */
-h1 {
+.titulo {
     text-align: center;
     font-size: 3.8rem;
 }
 
-span {
+.titulo span {
     font-size: 2rem;
 }
