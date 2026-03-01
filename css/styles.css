@@ -1,0 +1,18 @@
+/* TODO: Hack para que 1rem = 10px */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+}
+
+/* * Header */
+h1 {
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+span {
+    font-size: 2rem;
+}
