@@ -22,8 +22,10 @@ Portafolio web personal de servicios freelancer: diseño web, aplicaciones web y
 
 > Visita el sitio en vivo aquí 👉 [noahxd-dev.github.io/Sitio-FreeLancer](https://noahxd-dev.github.io/Sitio-FreeLancer/)
 
-<!-- Para agregar un screenshot, sube una imagen al repo y reemplaza la línea de abajo -->
-<!-- ![Screenshot del sitio](./img/screenshot.png) -->
+---
+
+## 📸 Vista previa
+![Screenshot del sitio](./img/screenshot.png)
 
 ---
 
